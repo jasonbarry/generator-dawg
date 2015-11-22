@@ -4,7 +4,7 @@ function updateName () {
     $('#name_field').addEventListener('keyup', function () {
         let value = this.value;
         if (!value) {
-            value = 'World';
+            value = 'Dawg';
         }
         $('#name').textContent = value;
     });
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     updateName();
 
-    links.forEach(link => link.setAttribute('data-hello', 'world'));
+    links.forEach(link => link.setAttribute('data-yo', 'dawg'));
 });
 
 // for test coverage
