@@ -1,6 +1,6 @@
 {
   "name": "generator-dawg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Don't Automate Without Gulp: An opinionated generator that gets you up and running with modern front-end web development tools (Gulp, BrowserSync, ES6, Babel, JSHint, Mocha, Sass)",
   "license": "BSD",
   "main": "app/index.js",
