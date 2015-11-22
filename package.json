@@ -1,0 +1,30 @@
+{
+  "name": "generator-dawg",
+  "version": "1.0.0",
+  "description": "Don't Automate Without Gulp: An opinionated generator that gets you up and running with modern front-end web development tools (Gulp, BrowserSync, ES6, Babel, JSHint, Mocha, Sass)",
+  "license": "BSD",
+  "main": "app/index.js",
+  "repository": "jasonbarry/generator-dawg",
+  "author": {
+    "name": "Jason Barry",
+    "email": "jasbarry@me.com",
+    "url": "https://github.com/jasonbarry"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^0.20.1",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "yeoman-environment": "*"
+  }
+}

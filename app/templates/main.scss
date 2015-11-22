@@ -1,0 +1,28 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+header, #main {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+h1 {
+	color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+/* TODO: media queries go here */
