@@ -48,20 +48,20 @@ module.exports = yeoman.generators.Base.extend({
     }, 
     src: function () {
       // js templates
-      this.copy('helpers.js', 'src/scripts/_helpers.js');
-      this.copy('app.js', 'src/scripts/app.js');
+      this.copy('js/helpers.js', 'src/scripts/_helpers.js');
+      this.copy('js/app.js', 'src/scripts/app.js');
 
       // sass templates
-      this.copy('main.scss', 'src/styles/main.scss');
+      this.copy('sass/main.scss', 'src/styles/main.scss');
 
       // html templates
       this.copy('index.html', 'src/index.html');
     },
 
     h5bp: function () {
-      this.copy('apple-touch-icon.png', 'apple-touch-icon.png');
-      this.copy('robots.txt', 'robots.txt');
-      this.copy('favicon.ico', 'favicon.ico');
+      this.copy('h5bp/apple-touch-icon.png', 'apple-touch-icon.png');
+      this.copy('h5bp/robots.txt', 'robots.txt');
+      this.copy('h5bp/favicon.ico', 'favicon.ico');
     },
 
     tests: function () {
@@ -69,7 +69,7 @@ module.exports = yeoman.generators.Base.extend({
       //   this.templatePath('runner.html'),
       //   this.destinationPath('test/runner.html')
       // );
-      this.copy('tests.js', 'test/main.js');
+      this.copy('tests/tests.js', 'test/main.js');
     },
 
     // sprites: function() {
@@ -88,20 +88,20 @@ module.exports = yeoman.generators.Base.extend({
     // },
 
     packageJSON: function () {
-      this.template('_package.json', 'package.json');
+      this.template('env/_package.json', 'package.json');
     },
 
     gulpfile: function () {
-      this.template('gulpfile.js', 'gulpfile.js');
+      this.template('env/gulpfile.js', 'gulpfile.js');
     },
 
     git: function () {
-      this.copy('gitignore', '.gitignore');
+      this.copy('env/gitignore', '.gitignore');
     },
 
     projectfiles: function () {
-      this.copy('babelrc', '.babelrc');
-      this.copy('jshintrc', '.jshintrc');
+      this.copy('env/babelrc', '.babelrc');
+      this.copy('env/jshintrc', '.jshintrc');
       this.copy('README.md', 'README.md');
       this.copy('LICENSE.txt', 'LICENSE.txt');
     }    
