@@ -2,6 +2,9 @@
 
 > Don't Automate Without Gulp! generator-dawg is an opinionated [Yeoman](http://yeoman.io) generator that gets you up and running with modern front-end web development tools. Inspired by [generator-modern-frontend](https://github.com/endel/generator-modern-frontend).
 
+![Sit tight dawg!](dawg.png)
+
+
 ## Features
 
 * Development
